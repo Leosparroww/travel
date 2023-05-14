@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create account</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dancing+Script:wght@400;500;600;700&family=Lobster&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0px;
+            padding: 0px;
+            background-image: url(../img/ocean\ 1.jpg);
+            background-size: auto;
+            height: 100vh;
+            background-repeat: no-repeat;
+            font-family: monospace;
+        }
+        
+        .logo {
+            color: #20b2ab;
+            text-align: center;
+            font-size: 70px;
+            font-family: Dancing Script, cursive;
+        }
+        
+        .content {
+            background-color: #d4f1f8;
+            width: 400px;
+            height: 450px;
+            margin: auto;
+            margin-top: 0px;
+            border-radius: 10px;
+            padding: 10px;
+            position: relative;
+        }
+        
+        .content1 {
+            margin-top: 20px;
+            margin-bottom: 30px;
+            margin-left: 20px;
+            font-size: 30px;
+            color: #03965d;
+            font-family: Bebas Neue;
+        }
+        /* .inputgroup {} */
+        
+        .input-group1,
+        .input-group2 {
+            display: flex;
+            margin: 0px 20px;
+        }
+        
+        .input-group .input-full {
+            width: 363px;
+            margin-left: 20px;
+        }
+        
+        .input-group input {
+            margin-top: 15px;
+            margin-bottom: 15px;
+            border: none;
+            border-radius: 5px;
+            height: 25px;
+        }
+        
+        .checkbox-group input {
+            margin-left: 20px;
+        }
+        
+        .signup {
+            text-align: center;
+            margin: 20px 0px;
+        }
+        
+        .signup button {
+            height: 30px;
+            width: 150px;
+            border: none;
+            background-color: #6ce7b0;
+            font-family: monospace;
+            border-radius: 30px;
+        }
+        
+        .footer-text {
+            text-align: center;
+        }
+        
+        a {
+            text-decoration: none;
+            color: #03965d;
+        }
+        
+        .selecter {
+            position: absolute;
+            right: 20px;
+        }
+        
+        .selecter select {
+            font-family: monospace;
+            border: none;
+            border-radius: 30px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="logo">
+        <h3> Wild life ocean</h3>
+    </div>
+    <div class="content">
+        <div class="content1"> Create your wild life account </div>
+        <div class="input-group">
+            <div class="input-group1">
+                <label for="first-name"> </label>
+                <input type="text" id="first-name" placeholder="First name">
+                <div class="input-group1">
+                    <label for="second-name"> </label>
+                    <input type="text" id="second-name" placeholder="Last name">
+                </div>
+            </div>
+        </div>
+        <div class="input-group">
+            <label for="username"> </label>
+            <input type="username" id="username" placeholder="Username" class="input-full">
+        </div>
+        <div class="input-group">
+            <label for="eamil"> </label>
+            <input type="email" id="email" placeholder="                     @gmail.com" class="input-full">
+        </div>
+        <div class="input-group">
+            <div class="input-group2">
+                <div class="input-group">
+                    <label for="pwd"> </label>
+                    <input type="password" id="password" placeholder="Password">
+                </div>
+                <div class="input-group2">
+                    <label for="confirm-pwd"> </label>
+                    <input type="password" id="confirm-pwd" placeholder="Confirm password">
+                </div>
+            </div>
+        </div>
+        <div class="checkbox-group">
+            <input type="checkbox" /> I agree with <span>Term of services</span>
+        </div>
+        <div class="signup">
+            <button> Signup</button>
+        </div>
+        <div class="footer-text">
+            <div> already a member? <a href="./loginpage-ocean.html">login here</a> </div>
+        </div>
+        <div class="selecter">
+            <select>
+                <option value="EN"> English</option>
+                <option value="MY"> Myanmar</option>
+            </select>
+        </div>
+    </div>
+</body>
+
+</html>
